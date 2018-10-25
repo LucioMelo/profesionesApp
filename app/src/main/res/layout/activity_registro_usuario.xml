@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tesis.profesionesapp.controlador.RegistroUsuarioActivity">
+
+    <LinearLayout
+        android:id="@+id/idLLContenedorActivity"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <TextView
+            android:id="@+id/idtextViewPregunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-9dp" />
+
+        <Spinner
+            android:id="@+id/idSpinnerProfesiones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:visibility="gone" />
+
+        <AutoCompleteTextView
+            android:id="@+id/idtextViewRespuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/idEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese su contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/idEditTextPasswordVerificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirmar la contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/idButtonSiguiente"
+            android:layout_width="315dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="Siguiente" />
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

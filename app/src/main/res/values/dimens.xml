@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimenDontHaveAccount">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_appbarLayoutHeight">256dp</dimen>
+    <dimen name="dimenTextSize_userNameDetail">25sp</dimen>
+    <dimen name="dimen_TextSize_likeNumberDetail">16sp</dimen>
+    <dimen name="marginLeft_secondWord">7dp</dimen>
+    <dimen name="dimen_height_divider">1dp</dimen>
+    <dimen name="dimen_PadingTop_tittleImageDetail">20dp</dimen>
+    <dimen name="dimen_paddingHorizontalTextContentDetail">35dp</dimen>
+</resources>
